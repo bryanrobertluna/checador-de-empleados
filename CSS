@@ -87,33 +87,11 @@ input[type="file"]::-webkit-file-upload-button:hover {
 background-color: #2E8B57;
 }
 
-/* Estilo para el botón de selección de archivo en Firefox */
-input[type="file"]::-moz-file-upload-button {
-background-color: #34A853;
-color: #fff;
-padding: 10px 20px;
-border: none;
-border-radius: 5px;
-font-size: 16px;
-cursor: pointer;
-transition: all 0.3s ease;
-}
 
 input[type="file"]::-moz-file-upload-button:hover {
 background-color: #2E8B57;
 }
 
-/* Estilo para el botón de selección de archivo en Safari */
-input[type="file"]::-webkit-file-upload-control {
-background-color: #34A853;
-color: #fff;
-padding: 10px 20px;
-border: none;
-border-radius: 5px;
-font-size: 16px;
-cursor: pointer;
-transition: all 0.3s ease;
-}
 
 input[type="file"]::-webkit-file-upload-control:hover {
 background-color: #2E8B57;
@@ -141,5 +119,11 @@ input[type="date"] {
 body {
   font-family: Arial, sans-serif;
   background-color: #E6F1FE;
+  padding: 20px;
+}
+
+body {
+  background: linear-gradient(to bottom, #FFFFFF 70%, #FF0000 30%);
+  font-family: Arial, sans-serif;
   padding: 20px;
 }
