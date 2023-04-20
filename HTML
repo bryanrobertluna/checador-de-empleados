@@ -2,54 +2,74 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<img src="data:image/png;base64,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" alt="Logo de la Cruz Roja Mexicana">
 	<title>Checador de Empleados</title>
 	<link rel="stylesheet" href="style.css">
+	<style>
+		.form-column {
+			display: inline-block;
+			vertical-align: top;
+			width: 48%;
+		}
+
+		.form-column:first-of-type {
+			margin-right: 2%;
+		}
+
+		.form-control {
+			margin-bottom: 1em;
+		}
+	</style>
 </head>
 <body>
 	<div class="container">
 		<h1>Checador de Empleados</h1>
 		<form>
-			<div class="form-control">
-				<label for="nombre">Nombre de Empleado:</label>
-				<input type="text" id="nombre" name="nombre">
+			<div class="form-column">
+				<div class="form-control">
+					<label for="nombre">Nombre de Empleado:</label>
+					<input type="text" id="nombre" name="nombre">
+				</div>
+				<div class="form-control">
+					<label for="hora-llegada">Hora de Llegada:</label>
+					<input type="time" id="hora-llegada" name="hora-llegada">
+				</div>
+				<div class="form-control">
+					<label for="hora-salida">Hora de Salida:</label>
+					<input type="time" id="hora-salida" name="hora-salida">
+				</div>
+				<div class="form-control">
+					<label for="dias-vacaciones">Días de Vacaciones:</label>
+					<input type="number" id="dias-vacaciones" name="dias-vacaciones" min="0" max="30">
+				</div>
+<div class="form-control">
+					<label for="dias-vacaciones">No.de Faltas Administrativas:</label>
+					<input type="number" id="dias-vacaciones" name="dias-vacaciones" min="0" max="30">
+				</div>
+
 			</div>
-      <div class="form-control">
-			<label for="hora-llegada">Hora de Llegada:</label>
-			<input type="time" id="hora-llegada" name="hora-llegada">
-		</div>
-
-		<div class="form-control">
-			<label for="hora-salida">Hora de Salida:</label>
-			<input type="time" id="hora-salida" name="hora-salida">
-		</div>
-
-		<div class="form-control">
-			<label for="dias-vacaciones">Días de Vacaciones:</label>
-			<input type="number" id="dias-vacaciones" name="dias-vacaciones" min="0" max="30">
-		</div>
-
-		<div class="form-control">
-			<label for="faltas">Faltas:</label>
-			<input type="number" id="faltas" name="faltas" min="0">
-		</div>
-
-		<div class="form-control">
-			<label for="retardos">Retardos:</label>
-			<input type="number" id="retardos" name="retardos" min="0">
-		</div>
-
-      <label for="fecha">Fecha:</label>
-<input type="date" id="fecha" name="fecha"><br>
-      
-		<div class="form-control">
-			<label for="documentos">Documentos:</label>
-			<input type="file" id="documentos" name="documentos">
-		</div>
-
-		<div class="form-control">
-			<input type="submit" value="Guardar">
-		</div>
-	</form>
-</div>
-  </body>
+			<div class="form-column">
+				<div class="form-control">
+					<label for="faltas">Faltas:</label>
+					<input type="number" id="faltas" name="faltas" min="0">
+				</div>
+				<div class="form-control">
+					<label for="retardos">Retardos:</label>
+					<input type="number" id="retardos" name="retardos" min="0">
+				</div>
+				<div class="form-control">
+					<label for="fecha">Fecha:</label>
+					<input type="date" id="fecha" name="fecha">
+				</div>
+				<div class="form-control">
+					<label for="documentos">Documentos:</label>
+					<input type="file" id="documentos" name="documentos">
+				</div>
+				<div class="form-control">
+					<input type="submit" value="Guardar">
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
 </html>
